@@ -1,6 +1,6 @@
-[00:16:53] [main/INFO]: Loading Minecraft 1.21.11 with Fabric Loader 0.19.3
-[00:16:54] [main/INFO]: Loading 66 mods:
-	- chunky 1.10.0
+[00:23:34] [main/INFO]: Loading Minecraft 1.21.11 with Fabric Loader 0.19.3
+[00:23:34] [main/INFO]: Loading 66 mods:
+	- chunky 1.10.1
 	   \-- net_java_dev_jna_jna 5.14.0
 	- fabric-api 0.141.3+1.21.11
 	   |-- fabric-api-base 1.0.5+4ebb5c083e
@@ -66,37 +66,38 @@
 	   |-- org_lwjgl_lwjgl-vulkan 3.3.3
 	   |-- org_lwjgl_lwjgl-vulkan_natives-macos 3.3.3
 	   \-- org_lwjgl_lwjgl-vulkan_natives-macos-arm64 3.3.3
-[00:16:54] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Administrator/AppData/Roaming/.sklauncher/libraries/net/fabricmc/sponge-mixin/0.17.3+mixin.0.8.7/sponge-mixin-0.17.3+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
-[00:16:54] [main/INFO]: Compatibility level set to JAVA_21
-[00:16:56] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.4).
-[00:16:59] [main/WARN]: Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
-[00:16:59] [Datafixer Bootstrap/INFO]: 287 Datafixer optimizations took 1185 milliseconds
-[00:17:11] [Render thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[00:17:11] [Render thread/INFO]: Setting user: ItzJoker2YT
-[00:17:11] [Render thread/INFO]: Chunky loaded: aggressiveCulling=true, occlusionCulling=true, dynamicRenderDistance=true, workers=4
-[00:17:11] [Render thread/INFO]: Chunky client initialized. Press K to open the Chunky config screen (F12 cycles presets).
-[00:17:11] [Render thread/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
-[00:17:12] [Render thread/INFO]: Checking mod updates...
-[00:17:12] [Render thread/INFO]: == VulkanMod ==
-[00:17:12] [Render thread/INFO]: Selecting Platform: WIN32
-[00:17:12] [Render thread/INFO]: GLFW: 3.4.0 Win32 WGL Null EGL OSMesa VisualC DLL
-[00:17:12] [ForkJoinPool.commonPool-worker-1/INFO]: Update available!
-[00:17:13] [Render thread/INFO]: Backend library: LWJGL version 3.3.3-snapshot
-[00:17:13] [Worker-Main-1/INFO]: Update available for 'fabric-api@0.141.3+1.21.11', (-> 0.141.6+1.21.11)
-[00:17:13] [Worker-Main-1/INFO]: Update available for 'vulkanmod@0.6.5', (-> 0.6.8+1.21.11)
-[00:17:13] [Worker-Main-1/INFO]: Update available for 'modmenu@17.0.0-beta.2', (-> 17.0.0)
-[00:17:15] [Render thread/INFO]: Using optional rendering extensions: 
-[00:17:15] [Render thread/ERROR]: Couldn't load file/Better Beds.zip pack metadata: Pack declares support for version newer than 64, but is missing mandatory fields min_format and max_format
-[00:17:15] [Render thread/ERROR]: Couldn't load file/FancyFast Bushy Leaves.zip pack metadata: Pack declares support for version newer than 64, but is missing mandatory fields min_format and max_format
-[00:17:15] [Render thread/ERROR]: Couldn't load file/JustExpressions_v1.1.zip pack metadata: Pack declares support for version newer than 64, but is missing mandatory fields min_format and max_format
-[00:17:15] [Render thread/ERROR]: Couldn't load file/NewGlowingOres-§6[Border]§r.zip pack metadata: Pack declares support for version newer than 64, but is missing mandatory fields min_format and max_format
-[00:17:15] [Render thread/ERROR]: Couldn't load file/§9RAY's §f3D §6Rails§8§o§k.zip pack metadata: Pack declares support for version newer than 64, but is missing mandatory fields min_format and max_format
-[00:17:15] [Render thread/ERROR]: Couldn't load file/§a§lVocal Villagers §r§71.2.zip pack metadata: Pack declares support for version newer than 64, but is missing mandatory fields min_format and max_format
-[00:17:15] [Render thread/ERROR]: Couldn't load file/§cUthas §f[1k].zip pack metadata: Pack declares support for version newer than 64, but is missing mandatory fields min_format and max_format
-[00:17:15] [Render thread/WARN]: @Redirect conflict. Skipping vulkanmod.mixins.json:render.particle.QuadParticleGroupM from mod vulkanmod->@Redirect::particleWithinSections(Lnet/minecraft/class_4604;DDD)Z with priority 1000, already redirected by chunky.mixins.json:BillboardParticleRendererMixin from mod chunky->@Redirect::chunky$cullParticle(Lnet/minecraft/class_4604;DDD)Z with priority 1000
+[00:23:35] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Administrator/AppData/Roaming/.sklauncher/libraries/net/fabricmc/sponge-mixin/0.17.3+mixin.0.8.7/sponge-mixin-0.17.3+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[00:23:35] [main/INFO]: Compatibility level set to JAVA_21
+[00:23:36] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.4).
+[00:23:40] [main/WARN]: Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
+[00:23:40] [Datafixer Bootstrap/INFO]: 287 Datafixer optimizations took 1247 milliseconds
+[00:23:52] [Render thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[00:23:52] [Render thread/INFO]: Setting user: ItzJoker2YT
+[00:23:52] [Render thread/INFO]: Chunky loaded: aggressiveCulling=true, occlusionCulling=true, dynamicRenderDistance=true, workers=4
+[00:23:53] [Render thread/INFO]: Chunky client initialized. Press K to open the Chunky config screen (F12 cycles presets).
+[00:23:53] [Render thread/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
+[00:23:53] [Render thread/INFO]: Checking mod updates...
+[00:23:53] [Render thread/INFO]: == VulkanMod ==
+[00:23:53] [Render thread/INFO]: Selecting Platform: WIN32
+[00:23:53] [Render thread/INFO]: GLFW: 3.4.0 Win32 WGL Null EGL OSMesa VisualC DLL
+[00:23:54] [ForkJoinPool.commonPool-worker-1/INFO]: Update available!
+[00:23:54] [Render thread/INFO]: Backend library: LWJGL version 3.3.3-snapshot
+[00:23:54] [Render thread/WARN]: Detected unexpected shutdown during last game startup: resetting fullscreen mode
+[00:23:55] [Worker-Main-1/INFO]: Update available for 'fabric-api@0.141.3+1.21.11', (-> 0.141.6+1.21.11)
+[00:23:55] [Worker-Main-1/INFO]: Update available for 'vulkanmod@0.6.5', (-> 0.6.8+1.21.11)
+[00:23:55] [Worker-Main-1/INFO]: Update available for 'modmenu@17.0.0-beta.2', (-> 17.0.0)
+[00:23:56] [Render thread/INFO]: Using optional rendering extensions: 
+[00:23:56] [Render thread/ERROR]: Couldn't load file/Better Beds.zip pack metadata: Pack declares support for version newer than 64, but is missing mandatory fields min_format and max_format
+[00:23:56] [Render thread/ERROR]: Couldn't load file/FancyFast Bushy Leaves.zip pack metadata: Pack declares support for version newer than 64, but is missing mandatory fields min_format and max_format
+[00:23:56] [Render thread/ERROR]: Couldn't load file/JustExpressions_v1.1.zip pack metadata: Pack declares support for version newer than 64, but is missing mandatory fields min_format and max_format
+[00:23:56] [Render thread/ERROR]: Couldn't load file/NewGlowingOres-§6[Border]§r.zip pack metadata: Pack declares support for version newer than 64, but is missing mandatory fields min_format and max_format
+[00:23:56] [Render thread/ERROR]: Couldn't load file/§9RAY's §f3D §6Rails§8§o§k.zip pack metadata: Pack declares support for version newer than 64, but is missing mandatory fields min_format and max_format
+[00:23:56] [Render thread/ERROR]: Couldn't load file/§a§lVocal Villagers §r§71.2.zip pack metadata: Pack declares support for version newer than 64, but is missing mandatory fields min_format and max_format
+[00:23:56] [Render thread/ERROR]: Couldn't load file/§cUthas §f[1k].zip pack metadata: Pack declares support for version newer than 64, but is missing mandatory fields min_format and max_format
+[00:23:57] [Render thread/WARN]: @Redirect conflict. Skipping vulkanmod.mixins.json:render.particle.QuadParticleGroupM from mod vulkanmod->@Redirect::particleWithinSections(Lnet/minecraft/class_4604;DDD)Z with priority 1000, already redirected by chunky.mixins.json:BillboardParticleRendererMixin from mod chunky->@Redirect::chunky$cullParticle(Lnet/minecraft/class_4604;DDD)Z with priority 2000
 ---- Minecraft Crash Report ----
-// Hi. I'm Minecraft, and I'm a crashaholic.
-Time: 2026-08-18 00:17:16
+// I bet Cylons wouldn't have this problem.
+Time: 2026-08-18 00:23:57
 Description: Initializing game
 java.lang.RuntimeException: Mixin transformation of net.minecraft.class_11940 failed
 at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:440)
@@ -151,7 +152,6 @@ Details:
 		CRYPTBASE.dll:Base cryptographic API DLL:10.0.22621.6491 (WinBuild.160101.0800):Microsoft Corporation
 		CRYPTSP.dll:Cryptographic Service Provider API:10.0.22621.6491 (WinBuild.160101.0800):Microsoft Corporation
 		CoreMessaging.dll:Microsoft CoreMessaging Dll:10.0.22621.5415 (WinBuild.160101.0800):Microsoft Corporation
-		CoreUIComponents.dll:Microsoft Core UI Components Dll:10.0.22621.5415:Microsoft Corporation
 		DBGHELP.DLL:Windows Image Helper:10.0.22621.5471 (WinBuild.160101.0800):Microsoft Corporation
 		DEVOBJ.dll:Device Information Set DLL:10.0.22621.2506 (WinBuild.160101.0800):Microsoft Corporation
 		DNSAPI.dll:DNS Client API DLL:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
@@ -213,7 +213,7 @@ Details:
 		jemalloc.dll
 		jimage.dll:OpenJDK Platform binary:21.0.7.0:Microsoft
 		jli.dll:OpenJDK Platform binary:21.0.7.0:Microsoft
-		jna7239052331231228389.dll:JNA native library:7.0.0:Java(TM) Native Access (JNA)
+		jna4955722419340414085.dll:JNA native library:7.0.0:Java(TM) Native Access (JNA)
 		jsvml.dll:OpenJDK Platform binary:21.0.7.0:Microsoft
 		jvm.dll:OpenJDK 64-Bit server VM:21.0.7.0:Microsoft
 		kernel.appcore.dll:AppModel API Host:10.0.22621.3958 (WinBuild.160101.0800):Microsoft Corporation
@@ -225,8 +225,8 @@ Details:
 		mscms.dll:Microsoft Color Matching System DLL:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
 		msvcp_win.dll:Microsoft� C Runtime Library:10.0.22621.6491 (WinBuild.160101.0800):Microsoft Corporation
 		msvcrt.dll:Windows NT CRT DLL:7.0.22621.6491 (WinBuild.160101.0800):Microsoft Corporation
+		mswsock.dll:Microsoft Windows Sockets 2.0 Service Provider:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
 
-mswsock.dll:Microsoft Windows Sockets 2.0 Service Provider:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
 napinsp.dll:E-mail Naming Shim Provider:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
 ncrypt.dll:Windows NCrypt Router:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
 net.dll:OpenJDK Platform binary:21.0.7.0:Microsoft
@@ -269,7 +269,7 @@ Minecraft Version ID: 1.21.11
 Operating System: Windows 10 (amd64) version 10.0
 Java Version: 21.0.7, Microsoft
 Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Microsoft
-Memory: 470255704 bytes (448 MiB) / 738197504 bytes (704 MiB) up to 4831838208 bytes (4608 MiB)
+Memory: 419202376 bytes (399 MiB) / 738197504 bytes (704 MiB) up to 4831838208 bytes (4608 MiB)
 CPUs: 8
 Processor Vendor: AuthenticAMD
 Processor Name: AMD Ryzen 5 3500U with Radeon Vega Mobile Gfx
@@ -288,18 +288,18 @@ Memory slot #0 capacity (MiB): 8192.00
 Memory slot #0 clockSpeed (GHz): 2.40
 Memory slot #0 type: Unknown
 Virtual memory max (MiB): 12742.82
-Virtual memory used (MiB): 10870.06
+Virtual memory used (MiB): 10951.15
 Swap memory total (MiB): 6656.00
-Swap memory used (MiB): 830.48
-Space in storage for jna.tmpdir (MiB): available: 37219.20, total: 91427.00
-Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): available: 37219.20, total: 91427.00
-Space in storage for io.netty.native.workdir (MiB): available: 37219.20, total: 91427.00
-Space in storage for java.io.tmpdir (MiB): available: 37219.20, total: 91427.00
-Space in storage for workdir (MiB): available: 37219.20, total: 91427.00
+Swap memory used (MiB): 761.59
+Space in storage for jna.tmpdir (MiB): available: 37214.33, total: 91427.00
+Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): available: 37214.33, total: 91427.00
+Space in storage for io.netty.native.workdir (MiB): available: 37214.33, total: 91427.00
+Space in storage for java.io.tmpdir (MiB): available: 37214.33, total: 91427.00
+Space in storage for workdir (MiB): available: 37214.33, total: 91427.00
 JVM Flags: 9 total; -Xmx4608M -Xms512M -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=16M -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
 Debug Flags: 0 total;
 Fabric Mods:
-chunky: Chunky 1.10.0
+chunky: Chunky 1.10.1
 net_java_dev_jna_jna: jna 5.14.0
 fabric-api: Fabric API 0.141.3+1.21.11
 fabric-api-base: Fabric API Base 1.0.5+4ebb5c083e
@@ -386,4 +386,4 @@ Window size: <not initialized>
 		Vulkan Version: 1.3.260
 		All required extensions are supported
 
-#@!@# Game crashed! Crash report saved to: #@!@# C:\Users\Administrator\AppData\Roaming\.sklauncher\instances\five-coats-stare\crash-reports\crash-2026-08-18_00.17.16-client.txt
+#@!@# Game crashed! Crash report saved to: #@!@# C:\Users\Administrator\AppData\Roaming\.sklauncher\instances\five-coats-stare\crash-reports\crash-2026-08-18_00.23.57-client.txt
